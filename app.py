@@ -7,8 +7,8 @@ load_dotenv()
 
 st.set_page_config(page_title="AI Chatbot", page_icon="🤖", layout="centered")
 
-st.title("🤖 AI Chatbot")
-st.caption("Powered by Gemini 2.5 Flash + LangChain")
+st.title("🤖 Amogh's First Neo AI Chatbot")
+st.caption("Ask me Easy tasks! Made by Gemini 2.5 Flash + LangChain + Streamlit")
 
 # Initialize the LLM once and cache it across reruns
 @st.cache_resource
@@ -31,7 +31,7 @@ for msg in st.session_state.messages:
         st.markdown(msg.content)
 
 # Chat input box (auto-clears after submit, sticks to bottom)
-user_input = st.chat_input("Type your message...")
+user_input = st.chat_input("Tell me 5 lines on Covid 19")
 
 if user_input:
     # Show user message immediately
