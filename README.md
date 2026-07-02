@@ -4,6 +4,8 @@ A conversational AI chatbot built with LangChain and Google's Gemini API, evolve
 
 🔗 **Live demo:** (https://my-first-ai.streamlit.app/)
 
+<img width="1918" height="907" alt="image" src="https://github.com/user-attachments/assets/0ccee0c1-edb9-4467-ac11-e3c3cedc3f44" />
+
 ---
 
 ## Project Journey
